@@ -1951,7 +1951,7 @@
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 }
 
@@ -2470,7 +2470,7 @@
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 }
 
