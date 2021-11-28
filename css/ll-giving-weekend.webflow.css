@@ -40,7 +40,7 @@
   position: static;
   height: auto;
   max-height: none;
-  min-height: auto;
+  min-height: 820px;
   padding-top: 60px;
   padding-bottom: 90px;
   padding-left: 60px;
@@ -56,7 +56,7 @@
   overflow: visible;
   height: auto;
   max-height: none;
-  min-height: auto;
+  min-height: 820px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -395,7 +395,7 @@
 
 .background-video {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   height: auto;
   max-height: none;
@@ -1996,6 +1996,7 @@
   }
 
   .background-video {
+    z-index: 0;
     width: auto;
     height: 100.0000242642639%;
     max-height: none;
@@ -2227,6 +2228,7 @@
   }
 
   .background-video {
+    z-index: 0;
     max-height: none;
   }
 
@@ -2432,12 +2434,14 @@
   }
 
   .background-video {
+    z-index: 0;
     max-height: none;
     min-height: auto;
   }
 
   .image {
     display: block;
+    height: 100%;
     max-width: none;
   }
 
@@ -2652,7 +2656,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 90px;
+    height: 70px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2673,6 +2677,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    height: 80%;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
